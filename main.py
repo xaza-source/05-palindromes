@@ -3,7 +3,7 @@
 
 def ispalindrome(p):
 
-    for i in range(len(p)):
+    for i in range(int(len(p)/2)):
         if p[i] == p[len(p)-1-i]:
             continue
         else:
