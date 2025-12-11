@@ -3,9 +3,12 @@
 
 def ispalindrome(p):
 
-    # votre code ici
-    
-    return False
+    for i in range(len(p)):
+        if p[i] == p[len(p)-1-i]:
+            continue
+        else:
+            return False
+    return True
 
 #### Fonction principale
 
